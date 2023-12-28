@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.un{
+    width: 1920px;
+     height: 1960px; 
+     position: relative; 
+     background: white;
+}
+.deux{
+    left: 248.02px; 
+    top: 202.56px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 6.77px; 
+    display: inline-flex;
+}
+.trois {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 42.58px; 
+    display: flex;
+}
+.quatre{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 28.38px; 
+    display: flex;
+}
+.cinq {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 42.58px; 
+    display: flex;
+}
+.E-COURSE{
+ color: #2B788B;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 19.87px;
+ letter-spacing: 2.78px;
+ word-wrap: break-word; 
+}
+
+.Learning {
+    color: black;
+    font-size: 70px;
+    font-family: 'Dela Gothic One', sans-serif; 
+    font-weight: 800;
+    line-height: 73.24px;
+    word-wrap: break-word;
+  }
+.Gain {
+color: #585858;
+ font-size: 22.71px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 31.79px;
+ word-wrap: break-word;
+}
+.six {
+    width: 100%; 
+    height: 100%; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 29.80px; 
+    display: inline-flex;
+}
+.SignIn {
+ color: black;
+ font-size: 19px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 10px;
+ word-wrap: break-word;
+ white-space: nowrap;
+ 
+}
+.sept {
+    width: 25%; 
+    height: 25%; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    background: #C3DCE3; 
+    border-radius: 12px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px; 
+    display: inline-flex;
+}
+.LearnMore{ 
+color: #2B788B;
+ font-size: 19px;
+ font-family: Montserrat;
+ font-weight: bold;
+ line-height: 19.87px;
+ word-wrap: break-word;
+}
+.huite {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 40.77px; 
+    display: inline-flex;
+}
+.neuf {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 2.84px; 
+    display: inline-flex;
+}
+.dix{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 11.35px; 
+    display: inline-flex;
+}
+.Nombre{
+    width: 144.22px;
+    height: 20.43px; 
+
+}
+
+.vector{
+    width: 30.30px; 
+    height: 20.32px;    
+}
+
+.HoursOfContent{
+ color: #585858;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 40.82px;
+ word-wrap: break-word;
+ margin-left: 30px;
+ margin-top : 15px;
+ 
+}
+.onze {
+    width: 0px; 
+    height: 55px; 
+    border: 1px #E0E0E0 solid;
+}
+.douze{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20px; 
+    display: inline-flex;   
+    margin-top: 60px;
+}
+.treize{
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10.35px; 
+    display: inline-flex;
+}
+.ActiveUsers {
+ color: #585858;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 40.82px;
+ margin-left: 50px;
+ margin-bottom: 50px; 
+ white-space: nowrap;
+ 
+}
+.quatorze {
+    width: 1416.38px; 
+    left: 242px; 
+    top: 79.56px; 
+    position: absolute; 
+    justify-content: space-between; 
+    align-items: center; 
+    display: inline-flex;
+}
+.quinze {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 34.06px;
+    display: flex;
+
+}
+.GlobalTalk{
+ color: black;
+ font-size: 22px;
+ font-family: Dela Gothic One;
+ font-weight: 800;
+ line-height: 24.35px;
+ word-wrap: break-word;
+}
+.seize {
+    width: 0px; 
+    height: 19.87px; 
+    border: 1.42px #E0E0E0 solid;
+}
+.Main a, .Guide a, .Statistics a, .Games a{
+ color: #585858;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 19.87px;
+ word-wrap: break-word;
+ text-decoration: none;
+}
+
+.dix-sept, .dix-huite{
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+}
+.frame8{
+    width: 4.08px; 
+    height: 4.08px; 
+    left: 1px; 
+    top: 6.97px; 
+    position: absolute; 
+    border: 0px #585858 solid;
+}
+.dix-neuf{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 29.80px; 
+    display: flex;
+}
+.Login  {
+color: black;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 19.87px;
+ word-wrap: break-word;
+
+}
+.vingt{
+    padding-left: 25.55px; 
+    padding-right: 25.55px; 
+    padding-top: 15.61px; 
+    padding-bottom: 15.61px; 
+    background: #2B788B; 
+    border-radius: 17.03px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 14.19px; 
+    display: flex;
+}
+.SignUp{
+color: white;
+ font-size: 19.87px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 19.87px;
+ word-wrap: break-word;
+}
+.img6{
+    width: 174.77px; 
+    height: 209.22px; 
+    left: 912.44px; 
+    top: 373.98px; 
+    position: absolute; 
+    filter: blur(5px);
+}
+.boy{
+    width: 745.03px; 
+    height: 621.28px; 
+    left: 980.98px; 
+    top: 180.97px; 
+    position: absolute;
+}
+.img12{
+    width: 459.26px; 
+    height: 699.10px; 
+    left: 1378.08px; top: 181.34px; 
+    position: absolute; 
+    filter: blur(5px);
+}
