@@ -61,13 +61,12 @@ color: black;
     position: relative;
 }
 .Vector{
-    width: 1px; 
-    height: 10px; 
+    width: 12.88px; 
+    height: 16px; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
-   
-    
+   background-color: #2B788B; 
 }
 .Plus
 {
