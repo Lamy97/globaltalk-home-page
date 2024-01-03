@@ -10,11 +10,8 @@ color: #2B788B;
  line-height: 12px;
  letter-spacing: 1.68px;
  word-wrap: break-word;
-
  align-self: stretch; 
  text-align: center; 
-
-
 }
 .Learning 
 {color: black;
@@ -64,11 +61,12 @@ color: black;
     position: relative;
 }
 .Vector{
-    width: 5px;
-    height: 2px; 
+    width: 1px; 
+    height: 10px; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
+   
     
 }
 .Plus
