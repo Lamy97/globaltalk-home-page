@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  
+.E-COURSE{
+color: #2B788B;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 12px;
+ letter-spacing: 1.68px;
+ word-wrap: break-word;
+
+ align-self: stretch; 
+ text-align: center; 
+
+
+}
+.Learning 
+{color: black;
+ font-size: 32px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 32px;
+ word-wrap: break-word;
+ align-self: stretch; 
+ text-align: center; 
+}
+
+.Practice
+{
+ color: #757575;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 19.60px;
+ word-wrap: break-word;
+ align-self: stretch; 
+ text-align: center; 
+}
+
+.About 
+{
+color: #2B788B;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 14px;
+ word-wrap: break-word;
+
+}
+.six-cent
+{
+color: black;
+ font-size: 20px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 20px;
+ word-wrap: break-word;
+}
+.Add{
+    width: 30px; 
+    height: 10px; 
+    position: relative;
+}
+.Vector{
+    width: 5px;
+    height: 2px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    
+}
+.Plus
+{
+ color: #2B788B;
+ font-size: 20px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 20px;
+ word-wrap: break-word;
+}
+.Popular
+{
+color: #585858;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 16.80px;
+ word-wrap: break-word;
+
+}
+// 2
+color: black;
+ font-size: 20px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 20px;
+ word-wrap: break-word
+---
+// +
+color: #2B788B;
+ font-size: 20px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 20px;
+ word-wrap: break-word
+---
+// Mini-games
+color: #585858;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 16.80px;
+ word-wrap: break-word
+---
+// globaltalk.com
+color: black;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 10px;
+ word-wrap: break-word
+---
+// A
+color: black;
+ font-size: 11px;
+ font-family: Alef;
+ font-weight: 400;
+ line-height: 10px;
+ word-wrap: break-word
+---
+// A
+color: black;
+ font-size: 15px;
+ font-family: Alef;
+ font-weight: 400;
+ line-height: 10px;
+ word-wrap: break-word
+---
+// GlobalTalk
+color: black;
+ font-size: 16px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 16px;
+ word-wrap: break-word
+---
+// A
+color: #2B788B;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 16.80px;
+ word-wrap: break-word
+---
+// Alex
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 16.80px;
+ word-wrap: break-word
+---
+// Learn a language in a playful way
+color: black;
+ font-size: 24px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 24px;
+ word-wrap: break-word
+---
+// Make learning words more fun with mini-games
+color: #757575;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 19.60px;
+ word-wrap: break-word
+---
+// Sprint →
+color: #945069;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 14px;
+ word-wrap: break-word
+---
+// Audio-call →
+color: #2B788B;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 14px;
+ word-wrap: break-word
+---
+// Increase your vocabulary
+color: black;
+ font-size: 24px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 24px;
+ word-wrap: break-word
+---
+// Traditional and new effective approaches to word study
+color: #757575;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 19.60px;
+ word-wrap: break-word
+---
+// Textbook →
+color: #2B788B;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 14px;
+ word-wrap: break-word
+---
+// Watch your progress every day
+color: black;
+ font-size: 24px;
+ font-family: Dela Gothic One;
+ font-weight: 400;
+ line-height: 24px;
+ word-wrap: break-word
+---
+// Save statistics on your achievements, words learned, and mistakes
+color: #757575;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 19.60px;
+ word-wrap: break-word
+---
+// Statistics →
+color: #2B788B;
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 700;
+ line-height: 14px;
+ word-wrap: break-word
+---
+// Home
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Textbook
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Statistics
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Sprint
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Audio-call
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Alex
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Gabriel
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// Marcus
+color: #757575;
+ font-size: 12px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 12px;
+ word-wrap: break-word
+---
+// ©2021 GlobalTalk. Project for 
+color: #757575;
+ font-size: 10px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 10px;
+ word-wrap: break-word
+---
+// GlobalTalk.
+color: #757575;
+ font-size: 10px;
+ font-family: Montserrat;
+ font-weight: 600;
+ text-decoration: underline;
+ line-height: 10px;
+ word-wrap: break-word;
