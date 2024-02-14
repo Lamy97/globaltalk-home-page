@@ -133,13 +133,13 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.dix{
+.boy-div{
     width: 1920px; 
     height: 940px; 
     position: relative; 
     background: #F6F5F4;
 }
-.onze {
+.Discription {
     width: 1180px; 
     height: 600px; 
     left: 369.95px; 
@@ -151,13 +151,13 @@
     gap: 90px; 
     display: inline-flex;
 }
-.douze{
+.Adjust{
     align-self: stretch; 
     border-radius: 58.53px; 
     justify-content: space-between; 
     align-items: center; display: inline-flex;
 }
-.treize{
+.Content-Adjust{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
