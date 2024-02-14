@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-.zero{
+.page{
     width: 1920px; 
     height: 2688px; 
     flex-direction: column; 
@@ -8,7 +8,7 @@
     align-items: flex-start;
      display: inline-flex;
 }
-.un{
+.header{
     align-self: stretch; 
     height: 88px; 
     padding-left: 370px; 
@@ -22,24 +22,15 @@
     align-items: center; 
     display: flex;
 }
-.deux{
-    left: 248.02px; 
-    top: 202.56px; 
-    position: absolute; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 6.77px; 
-    display: inline-flex;
-}
-.trois {
+
+.titles {
     align-self: stretch; 
     border-radius: 57.82px; 
     justify-content: space-between; 
     align-items: center; 
     display: inline-flex;
 }
-.quatre{
+.Menu{
     justify-content: flex-start; 
     align-items: center; 
     gap: 30px; 
@@ -55,7 +46,7 @@
     text-decoration: none;
     
 }
-.cinq {
+.Séparateur {
     width: 0px; 
     height: 16.87px; 
     border: 1.20px #E0E0E0 solid;
@@ -69,10 +60,11 @@
     word-wrap: break-word;
     text-decoration: none;
    }
-.six {
+.GameFleche  {
     justify-content: flex-start; 
     align-items: center; 
     display: flex;
+    padding-right: 500px;
 }  
 .Textbook a, .Statistics a, .Games a{
     color: #757575; 
@@ -88,20 +80,21 @@
     height: 14px; 
     position: relative;
 }
-.sept{
+.Connexion-bar{
     justify-content: flex-start; 
     align-items: center; 
     gap: 30px; 
     display: flex;
 }
-.huite {
+.Account-name {
     justify-content: flex-start; 
     align-items: center; 
     gap: 10px; 
     display: flex;
+    padding-left: 550px;
 }
 
-.neuf {
+.Account-Frame {
     padding-left: 14px; 
     padding-right: 14px; 
     padding-top: 9px; 
