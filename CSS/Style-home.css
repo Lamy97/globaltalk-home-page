@@ -8,7 +8,7 @@
     align-items: flex-start;
      display: inline-flex;
 }
-.header{
+ header{
     align-self: stretch; 
     height: 88px; 
     padding-left: 370px; 
@@ -64,7 +64,7 @@
     justify-content: flex-start; 
     align-items: center; 
     display: flex;
-    padding-right: 500px;
+    
 }  
 .Textbook a, .Statistics a, .Games a{
     color: #757575; 
@@ -91,7 +91,7 @@
     align-items: center; 
     gap: 10px; 
     display: flex;
-    padding-left: 550px;
+   
 }
 
 .Account-Frame {
@@ -157,21 +157,21 @@
     justify-content: space-between; 
     align-items: center; display: inline-flex;
 }
-.Content-Adjust{
+.all-Content-Adjust{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 48.78px; 
     display: inline-flex;
 }
-.quatorze {
+.Discription-content-adjust {
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 32px; 
     display: flex;
 }
-.quinze {
+.E-course-Learning-Practice {
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -189,7 +189,7 @@
     letter-spacing: 2.24px; 
     word-wrap: break-word;
 }
-.seize{
+.Learning-Practice{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -215,13 +215,13 @@
     word-wrap: break-word;
 }
 
-.dix-sept {
+.About-Platform {
     justify-content: flex-start; 
     align-items: center; 
     gap: 30px; 
     display: inline-flex;
 }
-.dix-huite{
+.About-Platform-Background{
     padding-left: 22px; 
     padding-right: 22px; 
     padding-top: 14px; 
@@ -242,31 +242,31 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.dix-neuf{
+.Nombres-Content-Adjust{
     justify-content: flex-start; 
     align-items: center; 
     gap: 48.78px; 
     display: inline-flex;
 }
-.vingt{
+.Content-600{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center; 
     gap: 3px; 
     display: inline-flex;
 }
-.B{
+.Flech-600-Plus{
     justify-content: flex-start; 
     align-items: center; 
     gap: 10px; 
     display: inline-flex;
 }
-.C{
+.Flech-position{
     width: 24px; 
     height: 30px; 
     position: relative;
 }
-.D{
+.Fleche{
     width: 24px; 
     height: 30px; 
     left: 0px; 
@@ -309,19 +309,19 @@
     word-wrap: break-word;
  
 }
-.E{
+.Separateur{
     width: 0px; 
     height: 48.78px; 
     border: 1.22px #E0E0E0 solid;   
 }
-.F{
+.Symbol-2-Plus{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center; 
     gap: 3px; 
     display: inline-flex;
 }
-.J{
+.two-Plus{
     justify-content: flex-start; 
     align-items: center; 
     gap: 10px; 
