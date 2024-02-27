@@ -133,7 +133,7 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.boy-div{
+.first-section{
     width: 1920px; 
     height: 940px; 
     position: relative; 
@@ -327,13 +327,13 @@
     gap: 10px; 
     display: inline-flex;
 }
-.H{
+.Symbol{
     justify-content: flex-start; 
     align-items: center; 
     gap: 10px; 
     display: inline-flex;
 }
-.I{
+.Symbol-img{
     width: 30px; 
     height: 18px; 
     left: 250.95px; 
@@ -350,7 +350,7 @@
     word-wrap: break-word;
 }
 
-.G {
+.Trees-Boy {
     width: 933px; 
     height: 601px; 
     left: 870.05px; 
@@ -358,7 +358,7 @@
     position: absolute;
 }
 
-.img6{
+.TreeBehind{
     width: 143px; 
     height: 171px; 
     left: 15.50px; 
@@ -374,7 +374,7 @@
     top: 0px; 
     position: absolute;
 }
-.img12{
+.TreeFront{
     width: 536px; 
     height: 571px; 
     left: 396.50px; 
@@ -382,14 +382,14 @@
     position: absolute;  
     filter: blur(5px);
 }
-.K{
+.Second-section{
     width: 1900px; 
     height: 940px; 
     padding-left: 50px;
     position: relative; 
     background: white;
 }
-.L{
+.Second-section-Content{
     width: 700px;
     height: 351.50px; 
     left: 1070px; 
@@ -419,19 +419,19 @@
     line-height: 25.20px; 
     word-wrap: break-word;
 }
-.M{
+.Two-Icons{
     width: 324.05px; 
     height: 145.50px; 
     position: relative;
 }
-.N{
+.Shoes-Icon{
     width: 131px; 
     height: 145px; 
     left: 0px; 
     top: 0.50px; 
     position: absolute;
 }
-.O{
+.Shoes-Background{
     width: 85px; 
     height: 100px; 
     padding-left: 22px; 
@@ -456,21 +456,21 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.img10{
+.Shoes{
     width: 131px; 
     height: 106px; 
     left: 0px; 
     top: 0px; 
     position: absolute;
 }
-.Q{
+.Trumpet-Icons  {
     width: 172px; 
     height: 145px; 
     left: 152.05px; 
     top: 0px; 
     position: absolute;
 }
-.R{
+.Trumpet-Background{
     width: 129px; 
     height: 100px;
      padding-left: 22px; 
@@ -495,7 +495,7 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.img11{
+.Trumpet{
     width: 91px; 
     height: 106px; 
     left: 41px; 
@@ -509,7 +509,7 @@
     top: 127.50px; 
     position: absolute;
 }
-.S{
+.Third-Section{
     padding-top: 40px; 
     padding-left: 500px; 
     padding-right: 370px; 
@@ -519,7 +519,7 @@
     gap: 10px; 
     display: inline-flex;
 }
-.T{
+.Third-Section-Content{
    
     flex-direction: column; 
     justify-content: flex-start; 
@@ -527,7 +527,7 @@
     gap: 34px; 
     display: inline-flex;
 }
-.U{
+.Increase-Traditional-Adjust{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -549,7 +549,7 @@
     color: #757575; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.20px; 
     word-wrap: break-word;
 }
-.V{
+.Textbook-background{
     padding-left: 22px; 
     padding-right: 22px; 
     padding-top: 14px; 
@@ -560,7 +560,7 @@
     align-items: center; 
     gap: 19px; display: inline-flex;
 }
-.txtbk{
+.Textbook{
     color: #2B788B; 
     font-size: 16px; 
     font-family: Montserrat; 
@@ -568,11 +568,11 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.other{
+.Other-Girl{
     width: 580px; 
     height: 473.97px;
 }
-.W{
+.Forth-Section{
     padding-top: 95.37px; 
     padding-bottom: 95.37px; 
     padding-left: 370px; 
@@ -583,11 +583,11 @@
     gap: 20px; 
     display: inline-flex;
 }
-.ppl{
+.poeple{
     width: 680px; 
     height: 409.25px;
 }
-.X{
+.Forth-Section-Content{
     
     flex-direction: column; 
     justify-content: flex-start; 
@@ -595,7 +595,7 @@
     gap: 34px; 
     display: inline-flex;
 }
-.Y{
+.Watch-Save-Adjust{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -620,7 +620,7 @@
     line-height: 25.20px; 
     word-wrap: break-word;
 }
-.Z{
+.Statistic-Background{
     padding-left: 22px; 
     padding-right: 22px; 
     padding-top: 14px; 
@@ -640,7 +640,7 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.b{
+footer{
     align-self: stretch; 
     height: 160px; 
     padding-left: 370px; 
@@ -654,20 +654,20 @@
     gap: 10px; 
     display: flex;
 }
-.c{
+.Footer-Content{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start;
      gap: 20px; 
     display: flex;
 }
-.d{
+.First-Line{
     align-self: stretch; 
     justify-content: space-between; 
     align-items: flex-start; 
     display: inline-flex;
 }
-.e{
+.Options{
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 30px; 
@@ -681,7 +681,7 @@
     line-height: 14px; 
     word-wrap: break-word;
 }
-.f{
+.Names{
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 30px; 
@@ -695,31 +695,31 @@
     line-height: 14px; 
     word-wrap: break-word;
 }
-.i{
+.gap{
     align-self: stretch; 
     transform: rotate(-90deg); 
     transform-origin: 0 0; 
     border: 0px #E0E0E0 solid;
 }
-.g{
+.Second-Line{
     width: 1180px; 
     height: 26px; 
     justify-content: space-between; 
     align-items: center; 
     display: inline-flex;
 }
-.h{
+.Social-Media-Icons{
     justify-content: flex-start; 
     align-items: center; 
     gap: 30px; 
     display: flex;
 }
-.k{
+.Git-icon{
     width: 30px; 
     height: 24px; 
     position: relative;
 }
-.l{
+.Git{
     width: 24.81px; 
     height: 19.87px; 
     left: 2.59px;
@@ -727,12 +727,12 @@
      position: absolute; 
     
 }
-.m{
+.GT-Icon{
     width: 30px; 
     height: 24px; 
     position: relative;
 }
-.n{
+.GT{
     width: 27.90px; 
     height: 18.73px; 
     left: 1.05px; 
@@ -740,12 +740,12 @@
     position: absolute; 
     
 }
-.o{
+.Youtube-Icon{
     width: 30px; 
     height: 24px; 
     position: relative;
 }
-.p{
+.Youtube{
     width: 25.10px; 
     height: 17.57px; 
     left: 2.45px; 
