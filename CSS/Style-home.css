@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
     .page {
       max-width: 150px;
     }
@@ -25,18 +25,31 @@
         height: 24px;
         position: relative;
       }
+      .Home , .Textbook , .Statistics , .Games ,.SignOut {
+        display: none;
+      }
       .GlobalTalk{
         margin: 0 auto;
         display: block;
+        box-align: center;
+        padding-left: 100px;
+      }
+      .Account-name{
+        padding-left: 100px;
       }
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .page{
     max-width:100%;
     height:auto;
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start;
-     display: inline-flex;
+    display: inline-flex;
 }
  header{
     align-self: stretch; 
