@@ -1,43 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@media screen and (max-width: 750px) {
-    .page {
-      max-width: 150px;
-    }
-    .header{
-        display: block;
-    }
-      .titles{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0;
-        height: 50vh; 
-        z-index: 10;
-        opacity: 1;
-        visibility: visible;
-        overflow-y: scroll;
-       
-      }
-      .menu-btn{
-        width: 24px;
-        height: 24px;
-        position: relative;
-      }
-      .Home , .Textbook , .Statistics , .Games ,.SignOut {
-        display: none;
-      }
-      .GlobalTalk{
-        margin: 0 auto;
-        display: block;
-        box-align: center;
-        padding-left: 100px;
-      }
-      .Account-name{
-        padding-left: 100px;
-      }
-  }
+
   * {
     margin: 0;
     padding: 0;
@@ -53,19 +16,21 @@
 }
  header{
     align-self: stretch; 
-    height: auto; 
-    padding-left: 370px; 
-    padding-right: 370px; 
+    height: auto;  
     padding-top: 24px; 
     padding-bottom: 24px; 
     background: #F6F5F4; 
     box-shadow: 0px -1px 0px #E0E0E0 inset; 
     flex-direction: column; 
-    justify-content: center; 
     align-items: center; 
     display: flex;
-}
+    justify-content: space-between;
 
+}
+.container {
+    max-width: 1700px;
+    margin: auto;
+}
 .titles {
     align-self: stretch; 
     border-radius: 57.82px; 
@@ -146,9 +111,7 @@
     padding-top: 9px; 
     padding-bottom: 9px; 
     background: #C3DCE3; 
-    border-radius: 100px; 
-    justify-content: center; 
-    align-items: center; 
+    border-radius: 100px;  
     gap: 14px; 
     display: flex;
 }
@@ -180,28 +143,33 @@
     word-wrap: break-word;
 }
 .first-section{
-    width: 1920px; 
-    height: 940px; 
+    max-width: 1190px; 
+    height: auto; 
     position: relative; 
     background: #F6F5F4;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
 }
 .Discription {
-    width: 1180px; 
-    height: 600px; 
-    left: 369.95px; 
+    max-width: 1180px; 
+    height: auto; 
+    left: 200px; 
     top: 0px; 
     position: absolute; 
     flex-direction: column; 
     justify-content: center; 
     align-items: flex-start;
     gap: 90px; 
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 .Adjust{
     align-self: stretch; 
     border-radius: 58.53px; 
     justify-content: space-between; 
-    align-items: center; display: inline-flex;
+    align-items: center; 
+    display: block;
 }
 .all-Content-Adjust{
     flex-direction: column; 
@@ -214,6 +182,7 @@
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
+    align-self: stretch; 
     gap: 32px; 
     display: flex;
 }
@@ -248,7 +217,8 @@
     font-size: 56px; 
     font-family: Dela Gothic One; 
     font-weight: 400; 
-    line-height: 67.20px; 
+    line-height: 140%;
+    letter-spacing: -0.04em;
     
   }
 .Practice {
@@ -428,267 +398,10 @@
     position: absolute;  
     filter: blur(5px);
 }
-.Second-section{
-    width: 1900px; 
-    height: 940px; 
-    padding-left: 50px;
-    position: relative; 
-    background: white;
-}
-.Second-section-Content{
-    width: 700px;
-    height: 351.50px; 
-    left: 1070px; 
-    top: 121.50px; 
-    position: absolute; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 40px; 
-    display: inline-flex;
-}
-.Learn{
-    width:500px; 
-    color: black; 
-    font-size: 48px; 
-    font-family: Dela Gothic One; 
-    font-weight: 400; 
-    line-height: 48px; 
-    word-wrap: break-word;
-}
-.Make{
-    width: 396.89px; 
-    color: #757575; 
-    font-size: 18px; 
-    font-family: Montserrat; 
-    font-weight: 600; 
-    line-height: 25.20px; 
-    word-wrap: break-word;
-}
-.Two-Icons{
-    width: 324.05px; 
-    height: 145.50px; 
-    position: relative;
-}
-.Shoes-Icon{
-    width: 131px; 
-    height: 145px; 
-    left: 0px; 
-    top: 0.50px; 
-    position: absolute;
-}
-.Shoes-Background{
-    width: 85px; 
-    height: 100px; 
-    padding-left: 22px; 
-    padding-right: 22px; 
-    padding-top: 14px; 
-    padding-bottom: 14px; 
-    left: 0.95px; 
-    top: 33px; 
-    position: absolute; 
-    background: #F2D4DC; 
-    border-radius: 14px; 
-    justify-content: center; 
-    align-items: flex-end; 
-    gap: 19px; 
-    display: inline-flex;
-}
-.Sprint{
-    color: #945069; 
-    font-size: 16px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
-    line-height: 16px; 
-    word-wrap: break-word;
-}
-.Shoes{
-    width: 131px; 
-    height: 106px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
-}
-.Trumpet-Icons  {
-    width: 172px; 
-    height: 145px; 
-    left: 152.05px; 
-    top: 0px; 
-    position: absolute;
-}
-.Trumpet-Background{
-    width: 129px; 
-    height: 100px;
-     padding-left: 22px; 
-     padding-right: 22px; 
-     padding-top: 14px; 
-     padding-bottom: 14px; 
-     left: 0px; top: 33px; 
-     position: absolute; 
-     background: #C3DCE3; 
-     border-radius: 14px; 
-     justify-content: center; 
-     align-items: flex-end; 
-    gap: 19px; display: inline-flex;
-}
-.AudioCall{
-    width: 121px; 
-    text-align: center; 
-    color: #2B788B; 
-    font-size: 16px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
-    line-height: 16px; 
-    word-wrap: break-word;
-}
-.Trumpet{
-    width: 91px; 
-    height: 106px; 
-    left: 41px; 
-    top: 0px; 
-    position: absolute;
-}
-.girl{
-    width: 580px; 
-    height: 445px; 
-    left: 370px; 
-    top: 127.50px; 
-    position: absolute;
-}
-.Third-Section{
-    padding-top: 40px; 
-    padding-left: 500px; 
-    padding-right: 370px; 
-    background: #F6F5F4; 
-    justify-content: flex-end; 
-    align-items: center; 
-    gap: 10px; 
-    display: inline-flex;
-}
-.Third-Section-Content{
-   
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 34px; 
-    display: inline-flex;
-}
-.Increase-Traditional-Adjust{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 30px; 
-    display: flex;
-}
-.Increase{
-    width: 474.46px; 
-    color: black; 
-    font-size: 48px; 
-    font-family: Dela Gothic One; 
-    font-weight: 400; 
-    line-height: 48px;
-     word-wrap: break-word;
-     
-}
-.Tradional{
-    width: 396.89px; 
-    color: #757575; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.20px; 
-    word-wrap: break-word;
-}
-.Textbook-background{
-    padding-left: 22px; 
-    padding-right: 22px; 
-    padding-top: 14px; 
-    padding-bottom: 14px; 
-    background: #C3DCE3; 
-    border-radius: 100px; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 19px; display: inline-flex;
-}
-.Textbook{
-    color: #2B788B; 
-    font-size: 16px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
-    line-height: 16px; 
-    word-wrap: break-word;
-}
-.Other-Girl{
-    width: 580px; 
-    height: 473.97px;
-}
-.Forth-Section{
-    padding-top: 95.37px; 
-    padding-bottom: 95.37px; 
-    padding-left: 370px; 
-    padding-right: 375.54px; 
-    background: white; 
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 20px; 
-    display: inline-flex;
-}
-.poeple{
-    width: 680px; 
-    height: 409.25px;
-}
-.Forth-Section-Content{
-    
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 34px; 
-    display: inline-flex;
-}
-.Watch-Save-Adjust{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 30px; 
-    display: flex;
-}
-.Watch{
-    width: 474.46px; 
-    color: black; 
-    font-size: 48px; 
-    font-family: Dela Gothic One; 
-    font-weight: 400; 
-    line-height: 48px; 
-    word-wrap: break-word;
-}
-.Save{
-    width: 396.89px; 
-    color: #757575; 
-    font-size: 18px; 
-    font-family: Montserrat; 
-    font-weight: 600; 
-    line-height: 25.20px; 
-    word-wrap: break-word;
-}
-.Statistic-Background{
-    padding-left: 22px; 
-    padding-right: 22px; 
-    padding-top: 14px; 
-    padding-bottom: 14px; 
-    background: #C3DCE3; 
-    border-radius: 100px; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 19px; 
-    display: inline-flex;
-}
-.Statistic{
-    color: #2B788B; 
-    font-size: 16px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
-    line-height: 16px; 
-    word-wrap: break-word;
-}
+
 footer{
     align-self: stretch; 
-    height: 160px; 
+    height: auto; 
     padding-left: 370px; 
     padding-right: 370px; 
     padding-top: 40px; 
@@ -699,12 +412,13 @@ footer{
     align-items: flex-start; 
     gap: 10px; 
     display: flex;
+    margin-top: 700px;
 }
 .Footer-Content{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start;
-     gap: 20px; 
+    gap: 20px; 
     display: flex;
 }
 .First-Line{

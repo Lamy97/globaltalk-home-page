@@ -282,3 +282,282 @@ color: white;
     position: absolute; 
     filter: blur(5px);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Second-section{
+    width: 1900px; 
+    height: 940px; 
+    padding-left: 50px;
+    position: relative; 
+    background: white;
+}
+.Second-section-Content{
+    width: 700px;
+    height: 351.50px; 
+    left: 1070px; 
+    top: 121.50px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 40px; 
+    display: inline-flex;
+}
+.Learn{
+    width:500px; 
+    color: black; 
+    font-size: 48px; 
+    font-family: Dela Gothic One; 
+    font-weight: 400; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+.Make{
+    width: 396.89px; 
+    color: #757575; 
+    font-size: 18px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 25.20px; 
+    word-wrap: break-word;
+}
+.Two-Icons{
+    width: 324.05px; 
+    height: 145.50px; 
+    position: relative;
+}
+.Shoes-Icon{
+    width: 131px; 
+    height: 145px; 
+    left: 0px; 
+    top: 0.50px; 
+    position: absolute;
+}
+.Shoes-Background{
+    width: 85px; 
+    height: 100px; 
+    padding-left: 22px; 
+    padding-right: 22px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    left: 0.95px; 
+    top: 33px; 
+    position: absolute; 
+    background: #F2D4DC; 
+    border-radius: 14px; 
+    justify-content: center; 
+    align-items: flex-end; 
+    gap: 19px; 
+    display: inline-flex;
+}
+.Sprint{
+    color: #945069; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.Shoes{
+    width: 131px; 
+    height: 106px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+.Trumpet-Icons  {
+    width: 172px; 
+    height: 145px; 
+    left: 152.05px; 
+    top: 0px; 
+    position: absolute;
+}
+.Trumpet-Background{
+    width: 129px; 
+    height: 100px;
+     padding-left: 22px; 
+     padding-right: 22px; 
+     padding-top: 14px; 
+     padding-bottom: 14px; 
+     left: 0px; top: 33px; 
+     position: absolute; 
+     background: #C3DCE3; 
+     border-radius: 14px; 
+     justify-content: center; 
+     align-items: flex-end; 
+    gap: 19px; display: inline-flex;
+}
+.AudioCall{
+    width: 121px; 
+    text-align: center; 
+    color: #2B788B; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.Trumpet{
+    width: 91px; 
+    height: 106px; 
+    left: 41px; 
+    top: 0px; 
+    position: absolute;
+}
+.girl{
+    width: 580px; 
+    height: 445px; 
+    left: 370px; 
+    top: 127.50px; 
+    position: absolute;
+}
+.Third-Section{
+    padding-top: 40px; 
+    padding-left: 500px; 
+    padding-right: 370px; 
+    background: #F6F5F4; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+}
+.Third-Section-Content{
+   
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 34px; 
+    display: inline-flex;
+}
+.Increase-Traditional-Adjust{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 30px; 
+    display: flex;
+}
+.Increase{
+    width: 474.46px; 
+    color: black; 
+    font-size: 48px; 
+    font-family: Dela Gothic One; 
+    font-weight: 400; 
+    line-height: 48px;
+     word-wrap: break-word;
+     
+}
+.Tradional{
+    width: 396.89px; 
+    color: #757575; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.20px; 
+    word-wrap: break-word;
+}
+.Textbook-background{
+    padding-left: 22px; 
+    padding-right: 22px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    background: #C3DCE3; 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 19px; display: inline-flex;
+}
+.Textbook{
+    color: #2B788B; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.Other-Girl{
+    width: 580px; 
+    height: 473.97px;
+}
+
+.Forth-Section{
+    height: auto;
+    padding-top: 95.37px; 
+    padding-bottom: 95.37px; 
+    padding-left: 370px; 
+    padding-right: 375.54px; 
+    background: white; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px; 
+    display: inline-flex;
+    box-sizing: border-box;
+}
+.poeple{
+    width: 680px; 
+    height: 409.25px;
+}
+.Forth-Section-Content{
+    
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 34px; 
+    display: inline-flex;
+}
+.Watch-Save-Adjust{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 30px; 
+    display: flex;
+}
+.Watch{
+    width: 474.46px; 
+    color: black; 
+    font-size: 48px; 
+    font-family: Dela Gothic One; 
+    font-weight: 400; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+.Save{
+    width: 396.89px; 
+    color: #757575; 
+    font-size: 18px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 25.20px; 
+    word-wrap: break-word;
+}
+.Statistic-Background{
+    padding-left: 22px; 
+    padding-right: 22px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    background: #C3DCE3; 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 19px; 
+    display: inline-flex;
+}
+.Statistic{
+    color: #2B788B; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}

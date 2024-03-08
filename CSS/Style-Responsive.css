@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@media screen and (max-width: 750px) {
+    .page {
+      max-width: 150px;
+    }
+    .header{
+        display: block;
+    }
+      .titles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        height: auto; 
+        z-index: 10;
+        opacity: 1;
+        visibility: visible;
+        overflow-y: scroll;
+       
+      }
+      .menu-btn{
+        width: 24px;
+        height: 24px;
+        position: fixed;
+        display: inline-block;
+
+      }
+      .Home , .Textbook , .Statistics , .Games ,.SignOut {
+        display: none;
+      }
+      .GlobalTalk{
+        margin: 0 auto;
+        display: block;
+        box-align: center;
+        padding-left: 100px;
+        
+      }
+      .Account-name{
+        padding-left: 100px;
+      }
+      .first-section {
+        max-width: 80%; 
+        gap: 20px; 
+      }
+  }
