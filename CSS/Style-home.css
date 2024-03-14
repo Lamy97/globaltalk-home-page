@@ -13,8 +13,9 @@
     justify-content: flex-start; 
     align-items: flex-start;
     display: inline-flex;
+    overflow: hidden;
 }
- header{
+ /* header{
     align-self: stretch; 
     height: auto;  
     padding-top: 24px; 
@@ -26,10 +27,29 @@
     display: flex;
     justify-content: space-between;
 
+} */
+
+
+header {
+    align-self: stretch;
+    height: 5.6rem;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #F6F5F4;
+    box-shadow: 0px -1px 0px #E0E0E0 inset;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    min-width: 100vw;
 }
+
+
 .container {
     max-width: 1700px;
-    margin: auto;
+    /* margin: auto; */
 }
 .titles {
     align-self: stretch; 
@@ -142,7 +162,7 @@
     line-height: 16px; 
     word-wrap: break-word;
 }
-.first-section{
+/* .first-section{
     max-width: 1190px; 
     height: auto; 
     position: relative; 
@@ -150,8 +170,21 @@
     display: flex;
     justify-content: space-between;
     clear: both;
+
+} */
+.first-section {
+    min-width: 100vw;
+    max-width: 100vw;
+    height: auto;
+    position: relative;
+    background: #F6F5F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    min-height: 100vh;
 }
-.Discription {
+/* .Discription {
     max-width: 1180px; 
     height: auto; 
     left: 200px; 
@@ -161,6 +194,18 @@
     justify-content: center; 
     align-items: flex-start;
     gap: 90px; 
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.Discription {
+    max-width: 1180px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -366,13 +411,23 @@
     word-wrap: break-word;
 }
 
-.Trees-Boy {
+/* .Trees-Boy {
     width: 933px; 
     height: 601px; 
     left: 870.05px; 
     top: 109px; 
     position: absolute;
+} */
+
+
+.Trees-Boy {
+    width: 933px;
+    height: 601px;
+    /* left: 870.05px; */
+    top: 50px;
+    position: relative;
 }
+
 
 .TreeBehind{
     width: 143px; 
@@ -399,7 +454,7 @@
     filter: blur(5px);
 }
 
-footer{
+/* footer{
     align-self: stretch; 
     height: auto; 
     padding-left: 370px; 
@@ -413,7 +468,27 @@ footer{
     gap: 10px; 
     display: flex;
     margin-top: 700px;
+} */
+
+footer {
+    align-self: stretch;
+    height: auto;
+    padding-left: 370px;
+    padding-right: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #F6F5F4;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    /* bottom: 0px; */
+    /* margin-top: 700px; */
+    position: relative;
 }
+
+
 .Footer-Content{
     flex-direction: column; 
     justify-content: flex-start; 
