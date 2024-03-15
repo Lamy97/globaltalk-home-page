@@ -180,9 +180,10 @@ header {
     background: #F6F5F4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     clear: both;
     min-height: 100vh;
+    
 }
 /* .Discription {
     max-width: 1180px; 
@@ -423,8 +424,8 @@ header {
 .Trees-Boy {
     width: 933px;
     height: 601px;
-    /* left: 870.05px; */
-    top: 50px;
+    left: 870.05px; 
+    top: 20px;
     position: relative;
 }
 

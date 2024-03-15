@@ -6,21 +6,32 @@
       max-width: 100%;
     }
     .header{
-        /* padding-block: ; */
+         /* padding-block:  ; */
     }
       .titles{
         display: flex;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: relative;
         left: 0;
         height: auto; 
         z-index: 10;
         opacity: 1;
         visibility: visible;
-        overflow-y: scroll;
-       
+        min-height: 0vw;
+      
+      > div {
+        margin: auto;
       }
+    }
+    
+    .Menu{
+      justify-content: flex-start; 
+      align-items: center; 
+      gap: 20px; 
+      display: flex;
+      align-self: stretch;
+  }
       .menu-btn{
         width: 24px;
         height: 24px;
@@ -77,6 +88,6 @@
 @media screen and (max-width: 608px) {
   .Learning {
     width: 500px;
-    /* font-size: 45px; */
+     
   }
 }
