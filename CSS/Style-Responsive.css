@@ -91,8 +91,35 @@
       position: fixed;
       display: inline-block;
     }
-    .Home , .Textbook , .Statistics , .Games ,.SignOut {
+    /* .Home , .Textbook , .Statistics , .Games ,.SignOut {
       display: none;
+    } */
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(219, 217, 214);
     }
     .GlobalTalk{
       margin: 0 auto;

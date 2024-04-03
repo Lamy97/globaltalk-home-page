@@ -1,24 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const menuBtn = document.querySelector(".menu-btn");
-  const nav = document.querySelector("header");
-  const ul = document.querySelector(".Home .Textbook .Statistics .Games");
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
-  // Corrected: Removed redundant burgerBtn variable
 
-  menuBtn.addEventListener("click", function () {
-    nav.classList.toggle("show-menu");
-    ul.classList.toggle("unhide-menu");
-    /* Corrected: Toggle "fixed" class on menuBtn itself */
-    menuBtn.classList.toggle("fixed");
-  });
 
-  // Corrected: Listener on the document body, not .container
-  document.body.addEventListener("click", function () {
-    // Close the menu when clicking outside both nav and menuBtn
-    if (!event.target.closest("header, .menu-btn")) {
-      nav.classList.remove("show-menu");
-      ul.classList.remove("unhide-menu");
-      menuBtn.classList.remove("fixed");
-    }
-  });
-});
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+}
