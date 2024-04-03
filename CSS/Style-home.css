@@ -65,7 +65,7 @@ header {
     gap: 50px; 
     display: flex;
 }
-.menu-btn {
+.menuBtn {
     display: none;
   }
 .GlobalTalk a{

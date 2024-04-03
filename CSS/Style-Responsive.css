@@ -85,7 +85,7 @@
 .Séparateur {
   display: none;
 }
-    .menu-btn{
+    .menuBtn{
       width: 24px;
       height: 24px;
       position: fixed;
@@ -203,7 +203,7 @@
   .Séparateur {
     display: none;
   }
-      .menu-btn{
+      .menuBtn{
         width: 24px;
         height: 24px;
         position: fixed;
