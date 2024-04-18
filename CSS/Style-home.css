@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-  * {
-    margin: 0;
+  *,
+  body {
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .page{
     max-width:100%;
@@ -49,7 +51,7 @@ header {
 
 .container {
     max-width: 1700px;
-    /* margin: auto; */
+    margin: 0 auto; 
 }
 .titles {
     align-self: stretch; 
@@ -57,15 +59,23 @@ header {
     justify-content: space-between; 
     align-items: center; 
     display: inline-flex;
-    gap: 50em; 
+    gap: 30em; 
 }
-.Menu{
-    justify-content: flex-start; 
+nav{
+    /* justify-content: flex-start; 
     align-items: center; 
-    gap: 50px; 
+    gap: 1em; 
     display: flex;
+    margin-left: 10px;
+    margin: 0;
+    padding: 0 ; */
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.menuBtn {
+.hamburger {
     display: none;
   }
 .GlobalTalk a{
@@ -76,20 +86,21 @@ header {
     line-height: 15px; 
     word-wrap: break-word ;
     text-decoration: none;
-    left : 200px;
+    margin-left: 10px;
     
 }
 .Séparateur {
     max-width: 3px; 
     height:15px; 
     border: 1px #E0E0E0 solid;
-    padding-top: 10px;
 }
 nav .mainMenu {
     display: flex;
     list-style: none;
+    border: none;
+   
   }
-  nav .mainMenu li a {
+  nav .mainMenu li > a {
     display: inline-block;
     padding-left: 15px;
     text-decoration: none;
@@ -100,8 +111,10 @@ nav .mainMenu {
     line-height: 22.40px; 
     word-wrap: break-word;
     transition: 0.2s ease;
+    list-style: none;
+    
   }
-  nav .mainMenu li a:hover {
+  nav .mainMenu li >a:hover {
     background: rgb(219, 217, 214);
   }
   nav .openMenu {
@@ -110,8 +123,8 @@ nav .mainMenu {
     display: none;
     cursor: pointer;
   }
-  nav .mainMenu .closeMenu,
-  .icons i {
+  nav .mainMenu .closeMenu
+   {
     font-size: 2rem;
     display: none;
     cursor: pointer;
@@ -231,7 +244,7 @@ nav .mainMenu {
 .Discription {
     max-width: 100vw;
     height: auto;
-    left: 300px; 
+    left: 25em; 
     position: relative;
     flex-direction: column;
     justify-content: center;

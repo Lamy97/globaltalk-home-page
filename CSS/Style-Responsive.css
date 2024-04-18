@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   .first-section {
     gap: 20px; 
     flex-direction: column;
@@ -50,7 +50,7 @@
  
 }
 
-}
+} */
 @media screen and (max-width: 770px) {
   .page {
     max-width: 100%;
@@ -75,7 +75,7 @@
     }
   }
   
-  .Menu{
+  nav{
     justify-content: flex-start; 
     align-items: center; 
     gap: 20px; 
@@ -91,35 +91,41 @@
       position: fixed;
       display: inline-block;
     }
-    /* .Home , .Textbook , .Statistics , .Games ,.SignOut {
-      display: none;
-    } */
+    
     nav .mainMenu {
-      height: 100vh;
-      position: fixed;
-      top: 0px;
-      right: 0px;
-      left: 0px;
-      z-index: 10;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: rgb(0, 0, 0);
-      transition: top 1s ease 0s;
       display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #F6F5F4;
+    color: black;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 30px;
+    gap: 10vh;
+      
     }
-    nav .mainMenu .closeMenu {
-      display: block;
-      position: absolute;
-      top: 20px;
-      right: 20px;
+    .hidden {
+      display: none;
+  }
+  
+    .hamburger {
+      display: flex;
+      cursor: pointer;
     }
-    nav .openMenu {
-      display: block;
+    .hamburger #closeHam {
+      display: none;
+      padding-top: 50px;
     }
-    nav .mainMenu li a:hover {
+    
+    nav .mainMenu li >a:hover {
       background: none;
       color: rgb(219, 217, 214);
+      width: 100%;
+    padding: 20px;
+    text-align: center;
     }
     .GlobalTalk{
       margin: 0 auto;
@@ -171,7 +177,7 @@
   } 
   
   }
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
     .page {
       max-width: 100%;
     }
@@ -193,7 +199,7 @@
       }
     }
     
-    .Menu{
+    nav{
       justify-content: flex-start; 
       align-items: center; 
       gap: 20px; 
@@ -406,4 +412,4 @@
             transform: translate(0, 0) rotate(-45deg);
         }
         }
-    }
+    } */
